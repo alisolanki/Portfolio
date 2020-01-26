@@ -60,7 +60,7 @@ if(isset($_POST['submit'])){
         $mail->Port = '465';
         $mail->isHTML();
         $mail->Username = 'llol3776@gmail.com';
-        $mail->Password = 'rhzbkppfxfiwlmpc';
+        $mail->Password = '';
         $mail->SetFrom('admin@alisolanki.gq');
         $mail->Subject = $subject;
         $mail->Body = $message;
