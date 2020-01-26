@@ -2217,11 +2217,8 @@ header{
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
-#contact .intro h2{
-    color: #FF0077;
-}
 #contact .section-intro h2 {
-	color: #FF0077;
+	color: white
 }
 #contact .section-intro h5 {
 	color: #FF0077;
