@@ -9,4 +9,4 @@ My website portfolio
 ![alt text](https://github.com/alisolanki/Portfolio/blob/master/Portfolio_mobile.PNG)
 
 ## Author
-* Mohd. Ali Solanki (https://www.alisolanki.gq)
+* Mohd. Ali Solanki (https://youtube.com/AliSolanki)
