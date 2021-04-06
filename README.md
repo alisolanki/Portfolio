@@ -1,5 +1,5 @@
 # Portfolio
-My website portfolio
+My website portfolio.
 
 ## Screenshots:
 ### Computer View
