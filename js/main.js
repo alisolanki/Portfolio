@@ -217,11 +217,11 @@
 	------------------------------------------------------ */
 
 	/* local validation */
-	$('#contactForm').validate({
-		sLoader.fadeOut(); 
-	       $('#message-warning').hide();
-	       $('#contactForm').fadeOut();
-	       $('#message-success').fadeIn();
+// 	$('#contactForm').validate({
+// 		sLoader.fadeOut(); 
+// 	       $('#message-warning').hide();
+// 	       $('#contactForm').fadeOut();
+// 	       $('#message-success').fadeIn();
 
 // 		/* submit via ajax */
 // 		submitHandler: function(form) {
@@ -266,7 +266,7 @@
 // 	      });     		
 //   		}
 
-	});
+// 	});
 
 
  	/*----------------------------------------------------- */
