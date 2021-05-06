@@ -218,49 +218,53 @@
 
 	/* local validation */
 	$('#contactForm').validate({
+		sLoader.fadeOut(); 
+	       $('#message-warning').hide();
+	       $('#contactForm').fadeOut();
+	       $('#message-success').fadeIn();
 
-		/* submit via ajax */
-		submitHandler: function(form) {
+// 		/* submit via ajax */
+// 		submitHandler: function(form) {
 
-			var sLoader = $('#submit-loader');
+// 			var sLoader = $('#submit-loader');
 
-			$.ajax({      	
+// 			$.ajax({      	
 
-		      type: "POST",
-		      url: "inc/sendEmail.php",
-		      data: $(form).serialize(),
-		      beforeSend: function() { 
+// 		      type: "POST",
+// 		      url: "inc/sendEmail.php",
+// 		      data: $(form).serialize(),
+// 		      beforeSend: function() { 
 
-		      	sLoader.fadeIn(); 
+// 		      	sLoader.fadeIn(); 
 
-		      },
-		      success: function(msg) {
+// 		      },
+// 		      success: function(msg) {
 
-	            // Message was sent
-	            if (msg == 'OK') {
-	            	sLoader.fadeOut(); 
-	               $('#message-warning').hide();
-	               $('#contactForm').fadeOut();
-	               $('#message-success').fadeIn();   
-	            }
-	            // There was an error
-	            else {
-	            	sLoader.fadeOut(); 
-	               $('#message-warning').html(msg);
-		            $('#message-warning').fadeIn();
-	            }
+// 	            // Message was sent
+// 	            if (msg == 'OK') {
+// 	            	sLoader.fadeOut(); 
+// 	               $('#message-warning').hide();
+// 	               $('#contactForm').fadeOut();
+// 	               $('#message-success').fadeIn();   
+// 	            }
+// 	            // There was an error
+// 	            else {
+// 	            	sLoader.fadeOut(); 
+// 	               $('#message-warning').html(msg);
+// 		            $('#message-warning').fadeIn();
+// 	            }
 
-		      },
-		      error: function() {
+// 		      },
+// 		      error: function() {
 
-		      	sLoader.fadeOut(); 
-		      	$('#message-warning').html("Something went wrong. Please try again.");
-		         $('#message-warning').fadeIn();
+// 		      	sLoader.fadeOut(); 
+// 		      	$('#message-warning').html("Something went wrong. Please try again.");
+// 		         $('#message-warning').fadeIn();
 
-		      }
+// 		      }
 
-	      });     		
-  		}
+// 	      });     		
+//   		}
 
 	});
 
