@@ -943,6 +943,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	height: .6rem;
 	background: #a1a1a1;
 	width: 100%;
+	border-radius: 10px;
 	margin-bottom: 6rem;
 	padding: 0;
 	position: relative;
@@ -1108,21 +1109,24 @@ header .logo {
 }
 header .logo a {
 	display: block;
-	margin:0px 0px 0px 10px;
-	margin-bottom:20px;
+	margin:-59.5px 20px 20px 60px;
 	border: none;
-	text-shadow:2px 2px 2px #cc005f;
+	text-shadow:0px 0px 0x brown;
 	color: white;
-	/* width: 100%; */
-	height: 100%;
-    position:relative;
-    font-family:'Comic Sans MS';
+
+	width: 100%;
+	height  : 100%;
+        position:relative;
+        font-family:'poppins-medium';
+	font-size: 22px;
+	text-transform: uppercase;
+
 	/* background-size: 113px 30px; */
 }
 header{
-	background-color: black;
-	width: 220px;
-	height:66px;
+	background-color: transparent;
+	width: 235px;
+	height:70px;
 	display: inline;
 }
 
@@ -1135,7 +1139,7 @@ header{
 	width: 40px;
 	height: 40px;
 	margin-left: 20px;
-	margin-top: 20px;
+	margin-top: 19.5px;
 	display: block;
 	position: relative;
 }
@@ -1382,7 +1386,10 @@ header{
 	line-height: 5.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
 	margin-top: .6rem;
-	font-size: 1.3rem;
+	border-radius: 10px;
+	padding: 20px;
+	background: transparent;
+	font-size: 1.3rem; 
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
@@ -1507,15 +1514,15 @@ header{
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
+	height: 20rem;
+	width: 20rem;
 	border-radius: 50%;
-	margin: .9rem 0 0 0;
-	float: left;
+	margin: 0rem 0 0 0;
+	float: center;
 }
 .intro-info .lead {
-	text-align: left;
-	padding-left: 13rem;
+	text-align: center;
+	padding-left:-2rem;
 }
 
 .about-content {
@@ -1562,6 +1569,7 @@ header{
 }
 .button-section .button {
 	width: 250px;
+	border-radius: 10px;
 }
 .button-section [class*="col-"] .button:first-child {
 	margin-right: 4rem;
@@ -2325,6 +2333,7 @@ header{
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
+	border-radius: 10px;
 	background: #FF0077;
 	color: #FFFFFF;
 }
