@@ -783,6 +783,20 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #bba31b;
 }
 
+.btn-primary-edit .col-twelve{
+	
+	display: flex;
+	justify-content: space-evenly;
+
+	
+}
+
+.btn-primary-edit .col-twelve .btn-pri-single{
+	font-size: 10px;
+	margin: 10px;
+	
+	
+}
 /**
  * additional typo styles - (_additional-typo.scss)
  * -------------------------------------------------------------------
@@ -1384,8 +1398,15 @@ header{
 	margin-top: .6rem;
 	font-size: 1.3rem;
 	text-transform: uppercase;
-	letter-spacing: .25rem;
+	letter-spacing: .20rem;
+
+
 }
+
+
+
+
+
 .intro-content .button:hover, .intro-content .button:focus {
 	border-color: #cc005f;
 }
