@@ -2534,6 +2534,8 @@ footer .copyright span:last-child::after {
 	display: none;
 }
 #go-top a {
+	opacity: .5;
+	border-radius: 50%;
 	text-decoration: none;
 	border: 0 none;
 	display: block;
@@ -2552,11 +2554,12 @@ footer .copyright span:last-child::after {
 	transition: all 0.3s ease-in-out;
 }
 #go-top a i {
-	font-size: 1.6rem;
+	font-size: 2rem;
 	line-height: inherit;
 }
 #go-top a:hover {
-	background: #000000;
+	opacity: 1;
+	background: #cc005f;
 }
 
 /*# sourceMappingURL=main.css.map */
